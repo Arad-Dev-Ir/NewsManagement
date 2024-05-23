@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Core\NewsManagement.Core.Domain\NewsManagement.Core.Domain.csproj" />
+		<ProjectReference Include="..\..\Core\NewsManagement.Core.Contract\NewsManagement.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\Core\NewsManagement.Core.AppService\NewsManagement.Core.AppService.csproj" />
+		<ProjectReference Include="..\..\Data\NewsManagement.Data.Sql\NewsManagement.Data.Sql.csproj" />
+		<ProjectReference Include="..\..\Data\NewsManagement.Data.Sql.Command\NewsManagement.Data.Sql.Command.csproj" />
+		<ProjectReference Include="..\..\Data\NewsManagement.Data.Sql.Query\NewsManagement.Data.Sql.Query.csproj" />
+	</ItemGroup>
+
+</Project>
