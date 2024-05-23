@@ -16,7 +16,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Data\" />
+	  <Folder Include="Data\Setup\Models\News\Configuration\" />
+	  <Folder Include="Data\Setup\Models\News\Conversion\" />
 	</ItemGroup>
 
 </Project>
