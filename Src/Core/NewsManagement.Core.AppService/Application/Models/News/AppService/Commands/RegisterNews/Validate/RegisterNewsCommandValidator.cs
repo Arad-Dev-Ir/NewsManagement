@@ -22,7 +22,7 @@ public class RegisterNewsCommandValidator : Validator<RegisterNews>
     {
         var property = nameof(Title);
         var minChar = 3;
-        var maxChar = 100;
+        var maxChar = 250;
 
         RuleFor(e => e.Title)
         .NotEmpty().WithMessage($"{property} is required!")
