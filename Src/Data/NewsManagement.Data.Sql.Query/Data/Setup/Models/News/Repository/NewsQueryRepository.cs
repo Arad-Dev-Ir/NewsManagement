@@ -50,7 +50,8 @@ public class NewsQueryRepository : QueryRepository<NewsManagementQueryContext>, 
         .OrderBy(query.OrderBy, query.Ascending)
         .Skip(query.SkipCount)
         .Take(query.PageSize)
-        .Select(e => new NewsRecordsResult
+        .Select(e =>
+        new NewsRecordsResult
         {
             Id = e.Id,
             Title = e.Title,

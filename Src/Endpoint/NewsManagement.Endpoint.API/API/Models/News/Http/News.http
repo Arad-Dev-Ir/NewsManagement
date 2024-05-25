@@ -1,16 +1,15 @@
-@baseUrl = https://localhost:8011/api/news
+@baseUrl = https://localhost:7011/api/news
 
 POST {{baseUrl}}/register-news
 Content-Type: application/json
 
 {
-    "Title": "About NASA",
-    "Description": "The National Aeronautics and Space",
-    "Body": "The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the civil space program, aeronautics research, and space research",
+    "Title": "About Cloud",
+    "Description": "The Cloud Ecosystem",
+    "Body": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center.",
     "KeywordsCodes":
     [
-        "F0B5E6C1-43F1-4B3E-BBD4-4B5BDD394E92",
-        "FE3D6016-73F1-4437-A470-8E19F8D3534C"
+        "4AA264FA-DBF4-4F51-A9D4-4E76F58BF243"
     ]
 }
 
