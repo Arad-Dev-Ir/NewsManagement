@@ -36,7 +36,7 @@ public class RegisterNewsCommandValidator : Validator<RegisterNews>
         var minChar = 0;
         var maxChar = 500;
 
-        RuleFor(e => e.Title)
+        RuleFor(e => e.Description)
         .NotEmpty().WithMessage($"{property} is required!")
         .MinimumLength(minChar).WithMessage($"The minimum length for {property} can be {minChar} character(s).")
         .MaximumLength(maxChar).WithMessage($"The maximum length for {property} can be {maxChar} character(s).");
