@@ -13,8 +13,8 @@ using Swan.Web.Endpoint.API;
 using System.IO.Compression;
 using Data.Sql.Commands;
 using Data.Sql.Queries;
+using Endpoint.News.APIs;
 
-// hosting
 public static class Extension
 {
     public static WebApplication ConfigureServices(this WebApplicationBuilder source)
@@ -30,7 +30,7 @@ public static class Extension
         .AddInMemoryCache()
         .AddDbContext(configuration)
         .AddDiscoveryClient(configuration)
-        //.AddHostedService<KeywordCreatedReceiver>()
+        .AddHostedService<KeywordCreationEventReceiver>()
         .AddResponseCompression()
         .AddSwaggerGen();
 

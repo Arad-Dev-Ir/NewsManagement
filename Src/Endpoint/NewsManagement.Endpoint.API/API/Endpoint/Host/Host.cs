@@ -2,7 +2,6 @@
 
 using Swan.Core.Models;
 
-// Hosting
 public class Host : Model
 {
     public static void Up(string[] args)
