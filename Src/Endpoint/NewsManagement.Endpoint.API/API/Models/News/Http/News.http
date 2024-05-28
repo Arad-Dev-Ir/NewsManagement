@@ -4,12 +4,12 @@ POST {{baseUrl}}/register-news
 Content-Type: application/json
 
 {
-    "Title": "About Cloud",
+    "Title": "About Cloud Computing1",
     "Description": "The Cloud Ecosystem",
     "Body": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations.",
     "KeywordsCodes":
     [
-        "4AA264FA-DBF4-4F51-A9D4-4E76F58BF243"
+        "C11D380E-F9BA-42B3-872C-08E436833"
     ]
 }
 

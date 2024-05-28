@@ -15,8 +15,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Core\NewsManagement.Core.Domain\NewsManagement.Core.Domain.csproj" />
-		<ProjectReference Include="..\..\Core\NewsManagement.Core.Contract\NewsManagement.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\..\Core\NewsManagement.Core.Contract\NewsManagement.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\..\Core\NewsManagement.Core.Domain\NewsManagement.Core.Domain.csproj" />
 		<ProjectReference Include="..\NewsManagement.Data.Sql\NewsManagement.Data.Sql.csproj" />
 	</ItemGroup>
 
